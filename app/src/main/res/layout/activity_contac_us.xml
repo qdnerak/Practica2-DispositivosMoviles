@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".contacUs">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="216sp"
+            android:layout_height="40sp"
+            android:text="Contact us"
+            android:textSize="30sp"
+            tools:layout_editor_absoluteX="39sp"
+            tools:layout_editor_absoluteY="36sp"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="E-mail:"
+            android:textSize="25sp"
+            tools:layout_editor_absoluteX="39sp"
+            tools:layout_editor_absoluteY="100sp"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/editTextTextEmail"
+            android:layout_width="270sp"
+            android:layout_height="50sp"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            tools:layout_editor_absoluteX="39sp"
+            tools:layout_editor_absoluteY="140sp"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone"
+            android:textSize="25sp"
+            tools:layout_editor_absoluteX="38sp"
+            tools:layout_editor_absoluteY="203sp"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/editTextPhone"
+            android:layout_width="271sp"
+            android:layout_height="52sp"
+            android:ems="10"
+            android:inputType="phone"
+            tools:layout_editor_absoluteX="38sp"
+            tools:layout_editor_absoluteY="250sp"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Message"
+            android:textSize="25sp"
+            tools:layout_editor_absoluteX="35sp"
+            tools:layout_editor_absoluteY="320sp"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/editTextTextMultiLine"
+            android:layout_width="274sp"
+            android:layout_height="136sp"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            tools:layout_editor_absoluteX="35sp"
+            tools:layout_editor_absoluteY="367sp"
+            tools:ignore="MissingConstraints" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Send a copy to yourself"
+            tools:layout_editor_absoluteX="35sp"
+            tools:layout_editor_absoluteY="510sp"
+            tools:ignore="MissingConstraints" />
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Subscrbie to our newsietter"
+            tools:layout_editor_absoluteX="35sp"
+            tools:layout_editor_absoluteY="557sp"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="300sp"
+            android:layout_height="50sp"
+            android:background="@android:color/holo_orange_dark"
+            android:text="Send"
+            android:textColor="@android:color/white"
+            tools:layout_editor_absoluteX="49sp"
+            tools:layout_editor_absoluteY="610sp"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(*Required -fields.)"
+            android:textSize="15sp"
+            tools:layout_editor_absoluteX="49dp"
+            tools:layout_editor_absoluteY="669dp"
+            tools:ignore="MissingConstraints" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>
